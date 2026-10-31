@@ -1,0 +1,49 @@
+/* page reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(121,32,153,1) 86%);
+    
+}
+
+form{
+    background-color: whitesmoke;
+    padding: 1rem;
+    width: 75vw;
+}
+
+h1{
+    color: rgba(121,32,153,1);
+    text-align: center;
+}
+
+input{
+    height: 2rem;
+    border: 1px solid rgba(34,193,195,1);
+}
+
+button{
+    background-color: rgba(121,32,153,1);
+    color: white;
+    width: 100%;
+    padding: 0.5rem 1rem;
+}
+
+.input-group{
+    display: flex;
+    flex-flow: column;
+    margin: 1rem;
+}
+
+.error{
+    color: red;
+    
+}
