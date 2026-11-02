@@ -48,9 +48,12 @@ const validateForm = (event)=>{
     }
     else if(passwordValue.length >=8){
         setSuccess(password);
+
     }
     else{
         setError(password, "password should be atleast 8 characters");
+        cpassword.value = '';
+        cpassword.nextElementSibling.innerHTML = "";
     }
 
     /* confirm password validation */
