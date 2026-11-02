@@ -28,6 +28,7 @@ h1{
 input{
     height: 2rem;
     border: 1px solid rgba(34,193,195,1);
+    padding: 0.5rem;
 }
 
 input:focus{
@@ -54,6 +55,7 @@ button:hover{
 
 .error{
     color: red;
+    
 }
 
 /* laptop style */
@@ -62,7 +64,6 @@ button:hover{
     
     form{
         width: 50vw;
-        
     }
 
     label{
@@ -71,6 +72,7 @@ button:hover{
 
     input{
         height: 2.5rem;
+        font-size: 1.25rem;
     }
 
     .input-group{
